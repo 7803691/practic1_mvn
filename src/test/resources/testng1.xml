@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Component Tests" verbose="2" annotations="JDK">
+<suite name="Unit test">
     <test name="a-t1" preserve-order="true" >
         <parameter name = "number1" value="10"/>
         <parameter name = "number2" value="6"/>

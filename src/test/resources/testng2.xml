@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Component Tests" verbose="2" annotations="JDK">
-    <test name="a-t1" preserve-order="true" >
+<suite name="Unit test">
+    <test name="a-t2" preserve-order="true" >
         <classes>
             <class name="com.kdv.CalculatorTestMulDiv" />
         </classes>
     </test>
-    <test name="a-t2" preserve-order="true">
+    <test name="a-t3" preserve-order="true">
         <classes>
             <class name="com.kdv.CalculatorTestMod"/>
         </classes>

@@ -8,13 +8,13 @@
     <artifactId>practic1_mvn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <defaultSuiteFiles>
-            ./src/test/resources/testng1.xml,./src/test/resources/testng2.xml
-        </defaultSuiteFiles>
-        <suiteFile>${defaultSuiteFiles}</suiteFile>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <!--<properties>-->
+        <!--<defaultSuiteFiles>-->
+            <!--./src/test/resources/testng1.xml,./src/test/resources/testng2.xml-->
+        <!--</defaultSuiteFiles>-->
+        <!--<suiteFile>${defaultSuiteFiles}</suiteFile>-->
+        <!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+    <!--</properties>-->
 
     <dependencies>
         <dependency>
@@ -45,9 +45,11 @@
                 <version>3.0.0-M1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
+                        <!--<suiteXmlFile>${suiteFile}</suiteXmlFile>-->
+                        <suiteXmlFile>src/test/resources/testng1.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testng2.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <groups>Unit1</groups>
+                    <groups>Unit2</groups>
                     <!--<properties>-->
                         <!--<property>-->
                             <!--<name>testnames</name>-->
